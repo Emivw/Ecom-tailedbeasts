@@ -20,7 +20,7 @@ console.log(person);
 const projects = [
   {
     title: "House 1",
-    imgURL: "https://picsum.photos/200/300?random=1",
+    imgURL: "https://i.postimg.cc/qvTqsKLG/buy.jpg",
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: "House 2",
-    imgURL: "https://picsum.photos/200/300?random=2",
+    imgURL: "https://i.postimg.cc/DzfzDKRJ/buy1.jpg",
     technologies: "HTML/CSS/JS",
     links: {
         price: "R3000",
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: "House 3",
-    imgURL: "https://picsum.photos/200/300?random=3",
+    imgURL: "https://i.postimg.cc/BvhvfVGh/buy2.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R800000",
@@ -54,7 +54,7 @@ const projects = [
   },
   {
     title: "House 4",
-    imgURL: "https://picsum.photos/200/300?random=4",
+    imgURL: "https://i.postimg.cc/G2HmLxLb/buy3.jpg",
     description: "Lorem ipsum",
     links: {
         price: "3000000",
@@ -65,7 +65,7 @@ const projects = [
   },
   {
     title: "House 5",
-    imgURL: "https://picsum.photos/200/300?random=5",
+    imgURL: "https://i.postimg.cc/rm3FKRsx/buy4.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R5000",
@@ -76,7 +76,7 @@ const projects = [
   },
   {
     title: "House 6",
-    imgURL: "https://picsum.photos/200/300?random=6",
+    imgURL: "https://i.postimg.cc/WzZprpqK/buy5.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R7500",
@@ -88,7 +88,7 @@ const projects = [
 
   {
     title: "House 7",
-    imgURL: "https://picsum.photos/200/300?random=7",
+    imgURL: "https://i.postimg.cc/wxRjn24V/rent.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R1500",
@@ -100,7 +100,7 @@ const projects = [
 
   {
     title: "House 8",
-    imgURL: "https://picsum.photos/200/300?random=8",
+    imgURL: "https://i.postimg.cc/FKK9pVJ0/rent4.jpg",
     description: "Lorem ipsum",
     links: {
         price: "567000",
@@ -113,7 +113,7 @@ const projects = [
 
   {
     title: "House 9",
-    imgURL: "https://picsum.photos/200/300?random=9",
+    imgURL: "https://i.postimg.cc/wxRjn24V/rent.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R400000",
@@ -126,7 +126,7 @@ const projects = [
 
   {
     title: "House 10",
-    imgURL: "https://picsum.photos/200/300?random=10",
+    imgURL: "https://i.postimg.cc/8zNkJSpK/rent2.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R8000000",
@@ -139,7 +139,7 @@ const projects = [
 
   {
     title: "House 11",
-    imgURL: "https://picsum.photos/200/300?random=11",
+    imgURL: "https://i.postimg.cc/y8j10bWV/rent3.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R5000",
@@ -151,7 +151,7 @@ const projects = [
 
   {
     title: "House 12",
-    imgURL: "https://picsum.photos/200/300?random=12",
+    imgURL: "https://i.postimg.cc/m2xg490G/rent1.jpg",
     description: "Lorem ipsum",
     links: {
         price: "R10000",
