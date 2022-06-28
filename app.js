@@ -1,20 +1,3 @@
-// PRIMITIVES
-let name = "Jason"; // String
-let age = 28; // number
-let isPensioner = false; // Boolean
-let canDance; // Undefined
-let awards = null; // Null
-
-// Reference Types
-
-// Object
-const person = {
-  name: "Jason",
-  age: 28,
-  isPensioner: false,
-};
-
-console.log(person);
 
 // Array
 const projects = [
