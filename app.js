@@ -24,9 +24,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
   {
     title: "House 2",
@@ -34,9 +36,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
   {
     title: "House 3",
@@ -44,9 +48,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
   {
     title: "House 4",
@@ -54,9 +60,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
   {
     title: "House 5",
@@ -64,9 +72,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
   {
     title: "House 6",
@@ -74,9 +84,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 
   {
@@ -85,9 +97,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 
   {
@@ -96,9 +110,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 
 
@@ -108,9 +124,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 
 
@@ -120,9 +138,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 
 
@@ -132,9 +152,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 
   {
@@ -143,9 +165,11 @@ const projects = [
     description: "Lorem ipsum",
     technologies: "HTML/CSS/JS",
     links: {
-      github: "Link",
-      live: "Link",
-    },
+        price: "Link",
+        status: "Link",
+        size: "Link",
+        favor: "Link",
+      },
   },
 ];
 
@@ -157,8 +181,17 @@ projects.forEach((project) => {
          <h3>${project.title}</h3>
          <img class="img-fluid" src=${project.imgURL} />
 
-      <div class="staff-details">
-      <h2>${project.description}</h2>
+      <div class="staff-details-favor">
+      <h2>${project.links.favor}</h2>
+
+      <div class="staff-details-status">
+      <h2>${project.links.status}</h2>
+
+      <div class="staff-details-size">
+      <h2>${project.links.size}</h2>
+
+      <div class="staff-details-price">
+      <h2>${project.links.price}</h2>
 
       </div>
          </div>

@@ -34,7 +34,7 @@ height: 25rem !important;
     position: relative;
   }
   
-  .staff-details {
+  .staff-details-favor {
     background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.7) 0%,
@@ -54,6 +54,141 @@ height: 25rem !important;
     transition: all 0.3s linear;
   }
   
-  .staff:hover .staff-details {
+  .staff:hover .staff-details-favor {
     opacity: 1;
   }
+
+  .staff-details-size
+   {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    position: absolute;
+    top: 1;
+    left: 1;
+    right: 1;
+    bottom: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .staff:hover .staff-details-size {
+    opacity: 1;
+  }
+
+
+  .staff-details-price
+  {
+   background: linear-gradient(
+     to top,
+     rgba(0, 0, 0, 0.7) 0%,
+     rgba(0, 0, 0, 0) 100%
+   );
+   color: white;
+   position: absolute;
+   top: 2;
+   left: 2;
+   right: 2;
+   bottom: 0;
+   padding: 90px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   opacity: 0;
+   transition: all 0.3s linear;
+ }
+ 
+ .staff:hover .staff-details-price {
+   opacity: 1;
+ }
+
+
+ .staff-details-status
+  {
+   background: linear-gradient(
+     to top,
+     rgba(0, 0, 0, 0.7) 0%,
+     rgba(0, 0, 0, 0) 100%
+   );
+   color: white;
+   position: absolute;
+   top: 3;
+   left: 3;
+   right:3;
+   bottom: 3;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   opacity: 0;
+   transition: all 0.3s linear;
+ }
+ 
+ .staff:hover .staff-details-status {
+   opacity: 1;
+ }
+
+ /* banner */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   body {
+    width: 100%;
+   }
+   .hero {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+   }
+   .hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   }
+   .hero .hero-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .hero .hero-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    margin-bottom: 20px;
+   }
+   .hero .hero-text p {
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+   }
+   .hero .hero-text a {
+    color: #333;
+    font-size: 20px;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+   }
+
+   /* filter */
+
+.filter{
+    background-color: red;
+}
