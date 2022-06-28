@@ -4,6 +4,14 @@
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+ 
 .fa{
     margin-left: 15px;
     margin-right: 15px;
@@ -15,3 +23,37 @@
     width: 40px;
 }
 
+.img-fluid {
+width: 35rem !important;
+height: 25rem !important;
+}
+
+
+
+.staff {
+    position: relative;
+  }
+  
+  .staff-details {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .staff:hover .staff-details {
+    opacity: 1;
+  }

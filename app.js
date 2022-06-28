@@ -1,145 +1,171 @@
-const formSignIn = document.querySelector('.form-signin');
+// PRIMITIVES
+let name = "Jason"; // String
+let age = 28; // number
+let isPensioner = false; // Boolean
+let canDance; // Undefined
+let awards = null; // Null
 
-// <----------------------------------------------->
-/* <!-----~----SIGN IN POP UP!-----~~~~~------------>
-<!-----------------------------------------------> */
-const signinBtn = document.querySelector('.clickable-btn-sign-in').addEventListener('click', function(e) {
-    let displayShow = document.querySelector('.displayShow');
-    let signinWrapper = document.querySelector('.sign-wrapper');
-    let signinDiv = document.querySelector('.sign-in-div');
+// Reference Types
 
-    // console.log('clicked');
-    signinDiv.classList.remove("sign-wrapper");
-    signinDiv.classList.add("displayShow");
+// Object
+const person = {
+  name: "Jason",
+  age: 28,
+  isPensioner: false,
+};
 
-    e.preventDefault();
+console.log(person);
+
+// Array
+const projects = [
+  {
+    title: "House 1",
+    imgURL: "https://picsum.photos/200/300?random=1",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+  {
+    title: "House 2",
+    imgURL: "https://picsum.photos/200/300?random=2",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+  {
+    title: "House 3",
+    imgURL: "https://picsum.photos/200/300?random=3",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+  {
+    title: "House 4",
+    imgURL: "https://picsum.photos/200/300?random=4",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+  {
+    title: "House 5",
+    imgURL: "https://picsum.photos/200/300?random=5",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+  {
+    title: "House 6",
+    imgURL: "https://picsum.photos/200/300?random=6",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+
+  {
+    title: "House 7",
+    imgURL: "https://picsum.photos/200/300?random=7",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+
+  {
+    title: "House 8",
+    imgURL: "https://picsum.photos/200/300?random=8",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+
+
+  {
+    title: "House 9",
+    imgURL: "https://picsum.photos/200/300?random=9",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+
+
+  {
+    title: "House 10",
+    imgURL: "https://picsum.photos/200/300?random=10",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+
+
+  {
+    title: "House 11",
+    imgURL: "https://picsum.photos/200/300?random=11",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+
+  {
+    title: "House 12",
+    imgURL: "https://picsum.photos/200/300?random=12",
+    description: "Lorem ipsum",
+    technologies: "HTML/CSS/JS",
+    links: {
+      github: "Link",
+      live: "Link",
+    },
+  },
+];
+
+const projectContainer = document.getElementById("projects");
+
+projects.forEach((project) => {
+  projectContainer.innerHTML += `
+  <div class="col-md-4 staff">
+         <h3>${project.title}</h3>
+         <img class="img-fluid" src=${project.imgURL} />
+
+      <div class="staff-details">
+      <h2>${project.description}</h2>
+
+      </div>
+         </div>
+
+         
+  `;
 });
 
 
 
-// ------remove--------
-
-window.addEventListener('click', function(event) {
-    let displayShow = document.querySelector('.displayShow');
-    let signinWrapper = document.querySelector('.sign-wrapper');
-    let signinDiv = document.querySelector('.sign-in-div');
-
-    if (event.target === displayShow) {
-        signinDiv.classList.remove("displayShow");
-        signinDiv.classList.add("sign-wrapper");
-
-    }
-});
-
-
-
-
-
-// <!---------Submit Pop Up - Sign IN Information-------------> */
-const form = document.querySelector('.form-signin').addEventListener('submit', submitClick);
-const input = document.querySelector('.form-control');
-
-
-
-
-function submitClick(e) {
-    console.log(input.value);
-    document.getElementById('signin-btn').remove();
-    let displayShow = document.querySelector('.displayShow');
-
-
-    displayShow.removeAttribute("display")
-        // displayShow.style.display='none';
-        // signinWrapper.classList.remove("displayShow");
-        // signinWrapper.classList.add("sign-wrapper");
-    e.preventDefault();
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Define UI
-const listYourHomeBtn = document.querySelector('.list-yourhome');
-
-
-/* <!---------LIST NEW HOMES POP UP!----------------->
-<!-----------------------------------------> */
-
-runAllHomesEventListeners();
-
-function runAllHomesEventListeners() {
-    listYourHomeBtn.addEventListener('click', listYourHomeBtnClick);
-
-};
-
-function listYourHomeBtnClick() {
-
-    let displayShowHome = document.querySelector('.displayShow-home');
-    let addHomeDiv = document.querySelector('.add-newhome-div');
-    let addHomeWrapper = document.querySelector('.home-wrapper');
-
-
-    addHomeDiv.classList.remove("home-wrapper");
-    addHomeDiv.classList.add("displayShow-home");
-
-}
-
-
-
-// ------Remove It--------
-
-window.addEventListener('click', function(event) {
-    let displayShowHome = document.querySelector('.displayShow-home');
-    let addHomeDiv = document.querySelector('.add-newhome-div');
-    let addHomeWrapper = document.querySelector('.home-wrapper');
-
-    if (event.target === displayShowHome) {
-        addHomeDiv.classList.remove("displayShow-home");
-        addHomeDiv.classList.add("home-wrapper");
-
-    }
-});
-
-
-
-
-
-// <!---------------------------------------------------------> */
-// <!---------Houses User Input & Submit ---------------------> */
-// <!---------------------------------------------------------> */
-
-// Define UI [Price | Street | City | State]
-const formPlatform = document.getElementById('form-platform-control');
-const price = document.getElementById('price-input');
-const street = document.getElementById('street-input');
-const city = document.getElementById('city-input');
-const state = document.getElementById('state-input');
-const submitBtn = document.getElementById('submit-btn-homes');
-
-
-runAllEventListenersUsers();
-
-function runAllEventListenersUsers() {
-    formPlatform.addEventListener('submit', submitAction);
-};
-
-// Submit Btn Clicked Function
-function submitAction(e) {
-    console.log('Works');
-    // if(price.value !== '' && street.value !== '' && city.value !== '' && state.value !== ''){
-    //   console.log('Works');
-    // }
-    e.preventDefault();
-}
