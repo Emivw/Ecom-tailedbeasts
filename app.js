@@ -169,25 +169,16 @@ projects.forEach((project) => {
   <div class="col-md-4 staff">
          <h3>${project.title}</h3>
          <img class="img-fluid" src=${project.imgURL} />
-
       <div class="staff-details-favor">
       <h2>${project.links.favor}</h2>
-
       <div class="staff-details-status">
       <h2>${project.links.status}</h2>
-
       <div class="staff-details-size">
       <h2>${project.links.size}</h2>
-
       <div class="staff-details-price">
       <h2>${project.links.price}</h2>
-
       </div>
          </div>
-
          
   `;
 });
-
-
-
