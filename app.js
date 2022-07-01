@@ -144,9 +144,20 @@ const projects = [
   },
 ];
 
+
+
+
+
+localStorage.setItem('projects', JSON.stringify(projects)); //stringify object and store
+var retrievedProjects = JSON.parse(localStorage.getItem('projects'));
+
+
+
+
+
 const projectContainer = document.getElementById("projects");
 
-projects.forEach((project) => {
+retrievedProjects.forEach((project) => {
   projectContainer.innerHTML += `
   <div class="col-md-4 staff">
          <h3>${project.title}</h3>
