@@ -1,3 +1,9 @@
+body{
+    background-image: url('./images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Landing */
 #landing {
     background-image: url(../image/herrr.jpg);
@@ -52,13 +58,7 @@
 
 /* ========================================================== */
 
-#footer a {
-    color: white;
-}
 
-#footer a:hover {
-    color: #006fd79d;
-}
 /* ========================================================== */
 /* Sort */
 #sort {
@@ -79,3 +79,62 @@
 table {
     overflow-x: auto;
 }
+
+
+
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/herrr.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+           
+  .btn-grad {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 

@@ -16,13 +16,20 @@
 </head>
 
 <body>
-    <!-- nav -->
+
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">I am John Doe</h1>
+          <p>And I'm a Photographer</p>
+          <button>Hire me</button>
+        </div>
+      </div>
         <nav class="navbar bg-light fixed-top justify-content-between">
             <div class="container">
                 
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link active btn-grad" aria-current="page" href="./index.html">Home</a>
  
-                    <a class="nav-link" href="./admin.html">Admin</a>
+                    <a class="nav-link btn-grad" href="./admin.html">Admin</a>
  
             </div>
         </nav>
@@ -41,7 +48,7 @@
         </div>
     </section>
 
-    <!-- <section id="search">
+    <section id="search">
         <div class="container rounded rounded-5 border border-2 p-3 my-3">
             <h2 class="text-center">Filter</h2>
 
@@ -89,20 +96,23 @@
                         <option value="10000">R10000</option>
                     </select>
                 </div>
-           
+                <!-- <div class="mx-auto col-lg-2 col-md-6 "> -->
+                <!-- <label for=""></label> -->
+                <!-- <button id="btnSearch" class="mx-auto col-lg-2 col-md-6 btn btn-primary h-50 mt-4">Search</button> -->
+                <!-- </div> -->
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="p-3" id="propertiesList">
         <div class="container">
-    
-         
+            <h2 class="text-center">Properties</h2>
+            <!-- Where the cards go -->
             <div id="properties" class="row"></div>
         </div>
     </section>
 
-    <footer id="footer" class="p-5 bg-dark text-center text-white"></footer>
+   
     <!-- </div> -->
 
 
@@ -123,5 +133,6 @@
     <!-- My JS -->
     <script src="./app.js"></script>
 </body>
+
 
 </html>
