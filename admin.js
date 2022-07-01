@@ -1,148 +1,146 @@
-let properties = JSON.parse(localStorage.getItem("property"))
-  ? JSON.parse(localStorage.getItem("property"))
-  : [
-      {
-        id: 1,
-        type: "Residential",
-        location: "Rondebosch East",
-        address: "Metro Plaza Dr",
-        picture: `./images/wand1.jpg`,
-        bedrooms: 3,
-        bathrooms: 2,
-        garage: 3,
-        price: 7000,
-      },
-      {
-        id: 2,
-        type: "Apartment",
-        address: "65 Lawson Rd",
-        location: "Belgravia",
-        picture: `./images/wand.jpg`,
-        bedrooms: 1,
-        bathrooms: 1,
-        garage: 1,
-        price: 5000,
-      },
-      {
-        id: 3,
-    type: "Apartment",
-    address: "Quincy St",
-    location: "Jupiter",
-    picture: `./images/wand2.jfif`,
-    bedrooms: 3,
-    bathrooms: 2,
-    garage: 3,
-    price: 9500,
-      },
-      {
-        id: 4,
-    type: "Commercial",
-    address: "65 Lawson Rd",
-    location: "Leeward",
-    picture: `./images/wand3.jfif`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-      },
-      {
-        id: 5,
-    type: "Apartment",
-    address: "87-656 Farrington Highway A",
-    location: "Jupiter",
-    picture: `./images/wand4.jfif`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-      },
-      {
-        id: 6,
-    type: "Residential",
-    address: "41-157 Nalu Street",
-    location: "Rondebosh East",
-    picture: `./images/wand5.jpg`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-      },
-      {
-        id: 7,
-        type: "Apartment",
-        address: "87-1409 Akowai Road",
-        location: "Belgravia",
-        picture: `./images/wand6.jfif`,
-        bedrooms: 1,
-        bathrooms: 1,
-        garage: 1,
-        price: 5000,
-      },
-      {
-        id: 8,
-    type: "Commercial",
-    address: "1946 Pauoa Road A",
-    location: "Athlone",
-    picture: `./images/wand7.jpg`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-      },
-      {
-        id: 9,
-        type: "Residential",
-        address: "87-280 Laulele Street",
-        location: "Leeward",
-        picture: `./images/wand8.jpg`,
-        bedrooms: 4,
-        bathrooms: 4,
-        garage: 5,
-        price: 10000,
-      },
-      {
-        id: 10,
-        type: "Commercial",
-        address: " 85-929 midway Street",
-        location: "Belgravia",
-        picture: `./images/wand9.jpg`,
-        bedrooms: 2,
-        bathrooms: 2,
-        garage: 3,
-        price: 7800,
-      },
-      {
-        id: 11,
-    type: "Apartment",
-    address: "87-1013 Kahiwelola Street",
-    location: "Leeward",
-    picture: `./images/wand10.jpg`,
-    bedrooms: 3,
-    bathrooms: 2,
-    garage: 1,
-    price: 9000,
-      },
-      {
-        id: 12,
-    type: "Commercial",
-    location: "Athlone",
-    address: "8100 S Ashland Ave",
-    picture: `./images/wand11.jpg`,
-    bedrooms: 2,
-    bathrooms: 3,
-    garage: 2,
-    price: 5000,
-      },
+let properties = JSON.parse(localStorage.getItem("property")) ?
+    JSON.parse(localStorage.getItem("property")) : [{
+            id: 1,
+            type: "oak",
+            location: "Rondebosch East",
+            Owner: "Hermione Granger",
+            picture: `./images/wand1.jpg`,
+            lenght: 3,
+            bathrooms: 2,
+            garage: 3,
+            price: 7000,
+        },
+        {
+            id: 2,
+            type: "holy",
+            Owner: "Snape",
+            location: "1991",
+            picture: `./images/wand.jpg`,
+            lenght: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 3,
+            type: "holy",
+            Owner: "Harry Potter",
+            location: "1010",
+            picture: `./images/wand2.jfif`,
+            lenght: 3,
+            bathrooms: 2,
+            garage: 3,
+            price: 9500,
+        },
+        {
+            id: 4,
+            type: "Laurel",
+            Owner: "Snape",
+            location: "1890",
+            picture: `./images/wand3.jfif`,
+            lenght: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 5,
+            type: "holy",
+            Owner: "Sirus",
+            location: "1010",
+            picture: `./images/wand4.jfif`,
+            lenght: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 6,
+            type: "oak",
+            Owner: "Dumbledore",
+            location: "Rondebosh East",
+            picture: `./images/wand5.jpg`,
+            lenght: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 7,
+            type: "holy",
+            Owner: "Ron",
+            location: "1991",
+            picture: `./images/wand6.jfif`,
+            lenght: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 8,
+            type: "Laurel",
+            Owner: "Twins",
+            location: "1989",
+            picture: `./images/wand7.jpg`,
+            lenght: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 9,
+            type: "oak",
+            Owner: "Lord",
+            location: "1890",
+            picture: `./images/wand8.jpg`,
+            lenght: 4,
+            bathrooms: 4,
+            garage: 5,
+            price: 10000,
+        },
+        {
+            id: 10,
+            type: "Laurel",
+            Owner: "Mr Weasly",
+            location: "1991",
+            picture: `./images/wand9.jpg`,
+            lenght: 2,
+            bathrooms: 2,
+            garage: 3,
+            price: 7800,
+        },
+        {
+            id: 11,
+            type: "holy",
+            Owner: "hadrid",
+            location: "1890",
+            picture: `./images/wand10.jpg`,
+            lenght: 3,
+            bathrooms: 2,
+            garage: 1,
+            price: 9000,
+        },
+        {
+            id: 12,
+            type: "Laurel",
+            location: "989",
+            Owner: "malfoy",
+            picture: `./images/wand11.jpg`,
+            lenght: 2,
+            bathrooms: 3,
+            garage: 2,
+            price: 5000,
+        },
     ];
 let display = document.getElementById("tbody");
 
 function loadData() {
-  display.innerHTML = "";
-  properties.forEach((item, index) => {
-    display.innerHTML += `
+    display.innerHTML = "";
+    properties.forEach((item, index) => {
+        display.innerHTML += `
     <tr>
     <th scope="row">${item.id}</th>
-    <td>${item.address}</td>
+    <td>${item.Owner}</td>
     <td>${item.type}</td>
     <td>${item.location}</td>
     <!-- icons -->
@@ -159,7 +157,7 @@ function loadData() {
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">${item.address}</h5>
+            <h5 class="modal-title" id="exampleModalLabel">${item.Owner}</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
         <div class="modal-body">
@@ -171,7 +169,7 @@ function loadData() {
                     <input class="form-control" type="text"
                     name="editTitle${index}"
                     id="editTitle${index}"
-                    value="${item.address}"/>
+                    value="${item.Owner}"/>
                 </div>
     
             <!-- Type -->
@@ -203,13 +201,13 @@ function loadData() {
             </div>
             
             <div class="col-6">
-            <!-- bedrooms -->
+            <!-- lenght -->
                 <div class="mb-3">
-                    <label for="editRooms${index}" class="form-label">Bedrooms</label>
+                    <label for="editRooms${index}" class="form-label">Lenght</label>
                     <input class="form-control" type="text"
                     name="editRooms${index}"
                     id="editRooms${index}"
-                    value="${item.bedrooms}"/>
+                    value="${item.lenght}"/>
                 </div>
                 
             <!-- bathrooms -->
@@ -250,8 +248,8 @@ function loadData() {
       </div>
     </div>
     `;
-  });
-console.table(properties)
+    });
+    console.table(properties)
 }
 loadData();
 
@@ -263,59 +261,59 @@ document.getElementById('btnSort').addEventListener('click', sort)
 
 // CREATE
 function addItem() {
-  // e.preventDefault();
-  // Push to Array
-  properties.push({
-    id: properties.length + 1,
-    type : document.getElementById('addType').value,
-    location : document.getElementById('addLocation').value,
-    address : document.getElementById('addAddress').value,
-    picture : document.getElementById('addPicture').value,
-    bedrooms : parseInt(document.getElementById('addRooms').value),
-    bathrooms : parseInt(document.getElementById('addBathrooms').value),
-    garage : parseInt(document.getElementById('addGarage').value),
-    price : parseInt(document.getElementById('addPrice').value),
-  });
-  localStorage.setItem("property", JSON.stringify(properties));
-  loadData();
+    // e.preventDefault();
+    // Push to Array
+    properties.push({
+        id: properties.length + 1,
+        type: document.getElementById('addType').value,
+        location: document.getElementById('addLocation').value,
+        Owner: document.getElementById('addAddress').value,
+        picture: document.getElementById('addPicture').value,
+        lenght: parseInt(document.getElementById('addRooms').value),
+        bathrooms: parseInt(document.getElementById('addBathrooms').value),
+        garage: parseInt(document.getElementById('addGarage').value),
+        price: parseInt(document.getElementById('addPrice').value),
+    });
+    localStorage.setItem("property", JSON.stringify(properties));
+    loadData();
 }
 
 // UPDATE
 function updateProperty(id) {
-  console.log("Im being clicked");
-  // variables for edited values
-  let etype = document.getElementById(`editType${id}`).value;
-  let elocation = document.getElementById(`editLocation${id}`).value;
-  let eaddress = document.getElementById(`editTitle${id}`).value;
-  let epicture = document.getElementById(`editPic${id}`).value;
-  let ebedrooms = document.getElementById(`editRooms${id}`).value;
-  let ebathrooms = document.getElementById(`editBath${id}`).value;
-  let egarage = document.getElementById(`editGarage${id}`).value;
-  let eprice = document.getElementById(`editPrice${id}`).value;
+    console.log("Im being clicked");
+    // variables for edited values
+    let etype = document.getElementById(`editType${id}`).value;
+    let elocation = document.getElementById(`editLocation${id}`).value;
+    let eaddress = document.getElementById(`editTitle${id}`).value;
+    let epicture = document.getElementById(`editPic${id}`).value;
+    let elenght = document.getElementById(`editRooms${id}`).value;
+    let ebathrooms = document.getElementById(`editBath${id}`).value;
+    let egarage = document.getElementById(`editGarage${id}`).value;
+    let eprice = document.getElementById(`editPrice${id}`).value;
 
-  // passing edited values into array
+    // passing edited values into array
     properties[id].type = etype
     properties[id].location = elocation
-    properties[id].address = eaddress
+    properties[id].Owner = eaddress
     properties[id].picture = epicture
-    properties[id].bedrooms = parseInt(ebedrooms)
+    properties[id].lenght = parseInt(elenght)
     properties[id].bathrooms = parseInt(ebathrooms)
     properties[id].garage = parseInt(egarage)
     properties[id].price = parseInt(eprice)
     localStorage.setItem("property", JSON.stringify(properties));
     loadData();
-  };
+};
 
 // DELETE
 function deleteItem(id) {
-  if (id > -1) {
-    properties.splice(id, 1);
-  }
-  for (i = 0; i < properties.length; i++) {
-    properties[i].id = i + 1;
-  }
-  localStorage.setItem("property", JSON.stringify(properties));
-  loadData();
+    if (id > -1) {
+        properties.splice(id, 1);
+    }
+    for (i = 0; i < properties.length; i++) {
+        properties[i].id = i + 1;
+    }
+    localStorage.setItem("property", JSON.stringify(properties));
+    loadData();
 }
 document.getElementById("delete").addEventListener("click", deleteItem);
 

@@ -1,161 +1,159 @@
-let arr = JSON.parse(localStorage.getItem("property"))
-  ? JSON.parse(localStorage.getItem("property"))
-  : [
-  {
-    id: 1,
-    type: "Residential",
-    location: "Rondebosch East",
-    address: "Metro Plaza Dr",
-    picture: `./images/wand1.jpg`,
-    bedrooms: 3,
-    bathrooms: 2,
-    garage: 3,
-    price: 7000,
-  },
-  {
-    id: 2,
-    type: "Apartment",
-    address: "65 Lawson Rd",
-    location: "Belgravia",
-    picture: `./images/wand.jpg`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-  },
-  {
-    id: 3,
-    type: "Apartment",
-    address: "Quincy St",
-    location: "Jupiter",
-    picture: `./images/wand2.jfif`,
-    bedrooms: 3,
-    bathrooms: 2,
-    garage: 3,
-    price: 9500,
-  },
-  {
-    id: 4,
-    type: "Commercial",
-    address: "65 Lawson Rd",
-    location: "Leeward",
-    picture: `./images/wand3.jfif`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-  },
-  {
-    id: 5,
-    type: "Apartment",
-    address: "87-656 Farrington Highway A",
-    location: "Jupiter",
-    picture: `./images/wand4.jfif`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-  },
-  {
-    id: 6,
-    type: "Residential",
-    address: "41-157 Nalu Street",
-    location: "Rondebosh East",
-    picture: `./images/wand5.jpg`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-  },
-  {
-    id: 7,
-    type: "Apartment",
-    address: "87-1409 Akowai Road",
-    location: "Belgravia",
-    picture: `./images/wand6.jfif`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-  },
-  {
-    id: 8,
-    type: "Commercial",
-    address: "1946 Pauoa Road A",
-    location: "Athlone",
-    picture: `./images/wand7.jpg`,
-    bedrooms: 1,
-    bathrooms: 1,
-    garage: 1,
-    price: 5000,
-  },
-  {
-    id: 9,
-    type: "Residential",
-    address: "87-280 Laulele Street",
-    location: "Leeward",
-    picture: `./images/wand8.jpg`,
-    bedrooms: 4,
-    bathrooms: 4,
-    garage: 5,
-    price: 10000,
-  },
-  {
-    id: 10,
-    type: "Commercial",
-    address: " 85-929 midway Street",
-    location: "Belgravia",
-    picture: `./images/wand9.jpg`,
-    bedrooms: 2,
-    bathrooms: 2,
-    garage: 3,
-    price: 7800,
-  },
-  {
-    id: 11,
-    type: "Apartment",
-    address: "87-1013 Kahiwelola Street",
-    location: "Leeward",
-    picture: `./images/wand10.jpg`,
-    bedrooms: 3,
-    bathrooms: 2,
-    garage: 1,
-    price: 9000,
-  },
-  {
-    id: 12,
-    type: "Commercial",
-    location: "Athlone",
-    address: "8100 S Ashland Ave",
-    picture: `./images/wand11.jpg`,
-    bedrooms: 2,
-    bathrooms: 3,
-    garage: 2,
-    price: 5000,
-  },
-]
-;
+let arr = JSON.parse(localStorage.getItem("property")) ?
+    JSON.parse(localStorage.getItem("property")) : [{
+            id: 1,
+            type: "oak",
+            Year: "Rondebosch East",
+            Owner: "Hermione Granger",
+            picture: `./images/wand1.jpg`,
+            length: 16,
+            bathrooms: 4,
+            garage: 900,
+            price: 7000,
+        },
+        {
+            id: 2,
+            type: "holy",
+            Owner: "Snape",
+            Year: "1991",
+            picture: `./images/wand.jpg`,
+            length: 10,
+            bathrooms: 5,
+            garage: 478,
+            price: 5000,
+        },
+        {
+            id: 3,
+            type: "holy",
+            Owner: "Harry Potter",
+            Year: "1010",
+            picture: `./images/wand2.jfif`,
+            length: 18,
+            bathrooms: 5,
+            garage: 10000,
+            price: 9500,
+        },
+        {
+            id: 4,
+            type: "Laurel",
+            Owner: "Snape",
+            Year: "Leew22ard",
+            picture: `./images/wand3.jfif`,
+            length: 11,
+            bathrooms: 1,
+            garage: 2,
+            price: 5000,
+        },
+        {
+            id: 5,
+            type: "holy",
+            Owner: "Sirus ",
+            Year: "Jupiter",
+            picture: `./images/wand4.jfif`,
+            length: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 6,
+            type: "oak",
+            Owner: "Dumbledore",
+            Year: "Rondebosh East",
+            picture: `./images/wand5.jpg`,
+            length: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 7,
+            type: "holy",
+            Owner: "Ron",
+            Year: "1991",
+            picture: `./images/wand6.jfif`,
+            length: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 8,
+            type: "Laurel",
+            Owner: "twins",
+            Year: "1989",
+            picture: `./images/wand7.jpg`,
+            length: 11,
+            bathrooms: 1,
+            garage: 1,
+            price: 5000,
+        },
+        {
+            id: 9,
+            type: "oak",
+            Owner: "Lord",
+            Year: "1890",
+            picture: `./images/wand8.jpg`,
+            length: 4,
+            bathrooms: 4,
+            garage: 5,
+            price: 10000,
+        },
+        {
+            id: 10,
+            type: "Laurel",
+            Owner: "Mr Weasly",
+            Year: "1991",
+            picture: `./images/wand9.jpg`,
+            length: 2,
+            bathrooms: 2,
+            garage: 3,
+            price: 7800,
+        },
+        {
+            id: 11,
+            type: "holy",
+            Owner: "hadrid",
+            Year: "1890",
+            picture: `./images/wand10.jpg`,
+            length: 3,
+            bathrooms: 2,
+            garage: 1,
+            price: 9000,
+        },
+        {
+            id: 12,
+            type: "Laurel",
+            Year: "1989",
+            Owner: "malfoy",
+            picture: `./images/wand11.jpg`,
+            length: 2,
+            bathrooms: 3,
+            garage: 2,
+            price: 5000,
+        },
+    ];
 // localStorage.removeItem('property')
 
 // displays data in array
 let properties = document.getElementById("properties");
+
 function loadData(n) {
-  properties.innerHTML = "";
-  n.forEach((item, index) => {
-    properties.innerHTML += `
+    properties.innerHTML = "";
+    n.forEach((item, index) => {
+        properties.innerHTML += `
   <div class="card p-3 m-3 mx-auto" data-aos="flip-right"
   data-aos-duration="1500" data-aos-delay="150">
     <img src="${item.picture}" class="card-img-top" alt="...">
     <div class="card-body">
-    <h5>Address: ${item.address}</h5>
-    <h6 class="card-title">${item.location}</h6>
+    <h5>Owner: ${item.Owner}</h5>
+    <h6 class="card-title">${item.Year}</h6>
       <p class="card-text">Price: R${item.price.toFixed(2)}/pm</p>
-      <p class="card-text">Property Type: ${item.type}</p>
+      <p class="card-text">wood Type: ${item.type}</p>
       <!-- Icons -->
       <div class="d-flex justify-content-around">
-        <p><i class="fa-solid fa-bed"></i> ${item.bedrooms}</p>
-        <p><i class="fa-solid fa-shower"></i> ${item.bathrooms}</p>
-        <p><i class="fa-solid fa-car"></i> ${item.garage}</p>
+        <p><i class="fa-solid fa-ruler"></i> ${item.length}</p>
+        <p><i class="fa-solid fa-star"></i> ${item.bathrooms}</p>
+        <p><i class="fa-solid fa-medal"></i> ${item.garage}</p>
       </div>
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#property${index}">
         View
@@ -169,7 +167,7 @@ function loadData(n) {
           <div class="modal-content">
               <div class="modal-header">
                   <h5 class="modal-title" id="propertyLabel">${
-                    item.address
+                    item.Owner
                   }</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
@@ -179,12 +177,12 @@ function loadData(n) {
                     <img src="${item.picture}" class="img-fluid">
                   </div>
                   <div class="col-6">
-                    <label>Property type: </label>
+                    <label>wood type: </label>
                     <p><i class="fa-solid fa-building-user"></i> ${
                       item.type
                     }</p>
                     <label>Bedrooms: </label>
-                    <p><i class="fa-solid fa-bed"></i> ${item.bedrooms}</p>
+                    <p><i class="fa-solid fa-bed"></i> ${item.length}</p>
                     <label>Bathrooms: </label>
                     <p><i class="fa-solid fa-shower"></i> ${item.bathrooms}</p>
                     
@@ -201,85 +199,58 @@ function loadData(n) {
   </div>
   <!--  -->
     `;
-  });
+    });
 }
 loadData(arr);
 
-// Sorts by property type
+// Sorts by wood type
 function sortType(type) {
-  if (type.target.value === 'all') {
-  return loadData(arr)
-  }
+    if (type.target.value === 'all') {
+        return loadData(arr)
+    }
 
-  let typeArr = arr.filter((x) => {
-    return x.type == type.target.value;
-  });
-  loadData(typeArr);
+    let typeArr = arr.filter((x) => {
+        return x.type == type.target.value;
+    });
+    loadData(typeArr);
 }
 document.getElementById("property").addEventListener("change", sortType);
 
 // sorts by Location
-function sortLocation(location) {
-  if (location.target.value === 'all') {
-    return loadData(arr)
+function sortYear(Year) {
+    if (Year.target.value === 'all') {
+        return loadData(arr)
     }
-  let locArr = arr.filter((x) => {
-    return x.location == location.target.value;
-  });
-  loadData(locArr);
+    let locArr = arr.filter((x) => {
+        return x.Year == Year.target.value;
+    });
+    loadData(locArr);
 }
-document.getElementById("location").addEventListener("change", sortLocation);
+document.getElementById("Year").addEventListener("change", sortYear);
 
-// sorts by bedrooms
+// sorts by length
 function sortBedroom(size) {
-  if (size.target.value === 'all') {
-    return loadData(arr)
+    if (size.target.value === 'all') {
+        return loadData(arr)
     }
 
-  let bedArr = arr.filter((x) => {
-    return x.bedrooms <= size.target.value;
-  });
-  console.table(bedArr)
-  loadData(bedArr);
+    let bedArr = arr.filter((x) => {
+        return x.length <= size.target.value;
+    });
+    console.table(bedArr)
+    loadData(bedArr);
 }
 document.getElementById("size").addEventListener("change", sortBedroom);
 
 // sorts by budget
 function sortBudget(price) {
-  if (price.target.value === 'all') {
-    return loadData(arr)
+    if (price.target.value === 'all') {
+        return loadData(arr)
     }
 
-  let sortPrice = arr.filter((p) => {
-    return p.price <= price.target.value;
-  });
-  loadData(sortPrice);
+    let sortPrice = arr.filter((p) => {
+        return p.price <= price.target.value;
+    });
+    loadData(sortPrice);
 }
 document.getElementById("budget").addEventListener("change", sortBudget);
-
-// footer & copyright
-const Year = new Date().getFullYear();
-document.getElementById("footer").innerHTML += `
-<div class="container">
-  <div class="row w-100">
-      <div class="col-12 d-flex justify-content-between">
-      <p><i class="fa-solid fa-location-dot"></i> Property 420</p>
-        
-        <i>&copyAbdus-Samad Charles ${Year}</i>
-        <div>
-          <a href="" class="mx-1">
-          <i class="fa-brands fa-github">
-              GitHub
-          </i>
-          </a>
-          <a href="" class="mx-1">
-          <i class="fa-brands fa-linkedin">
-              LinkedIn
-          </i>
-          </a>
-        </div>
-      </div>   
-    </div> 
-  </div>
-</div>
-`;
