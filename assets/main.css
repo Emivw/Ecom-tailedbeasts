@@ -1,0 +1,118 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #151414;
+    color: rgb(232, 232, 232);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./media/TailedBeasts-grp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.col-md-12 {
+    margin-top: 40rem;
+    color: white;
+    background-color: #232526;
+}
+
+
+/* Landing */
+
+
+/* ======================================================== */
+
+
+/* Search */
+
+#search {
+    padding: 10px;
+    min-height: 20vh;
+    margin-top: -95px;
+}
+
+#search .container {
+    background-color: rgb(4, 4, 4);
+    box-shadow: 5px 5px 10px 1px #616161;
+}
+
+#search label {
+    width: 150px;
+}
+
+
+/* ========================================================= */
+
+
+/* Properties */
+
+#properties {
+    min-height: 100vh;
+}
+
+#properties .card {
+    height: fit-content;
+    width: 350px;
+    box-shadow: 5px 5px 10px 1px #616161;
+}
+
+#properties img.card-img-top {
+    /* aspect-ratio: 1; */
+    width: 100%;
+    height: 200px;
+}
+
+
+/* ========================================================== */
+
+
+/* ========================================================== */
+
+
+/* Sort */
+
+#sort {
+    padding: 10px;
+    min-height: 15vh;
+    /* margin-top: -95px; */
+}
+
+#sort .container {
+    background-color: rgb(2, 2, 2);
+    box-shadow: 5px 5px 10px 1px #a90000;
+}
+
+#sort label {
+    width: 150px;
+}
+
+table {
+    overflow-x: auto;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
